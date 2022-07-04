@@ -1,0 +1,12 @@
+
+    .admindashboard{
+        margin: 150px 0 0 200px ;
+    }
+    .margingap{
+        margin: 15px 10px 10px 20px;
+    }
+@media screen and (max-width: 880px) {
+    .admindashboard{
+        margin: 100px 10px 0 10px;
+    }
+  }

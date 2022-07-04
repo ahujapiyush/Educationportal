@@ -1,0 +1,25 @@
+
+.examname{
+    font-size: 2rem;
+    color: rgb(4, 116, 221);
+    text-align: center;
+    margin-top: 1rem;
+    border: .2px solid rgb(219, 212, 212);
+}
+.Checkbox{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10rem;
+    width: 90%;
+    box-shadow: 15px 6px 15px rgb(0 0 0 / 0.2);
+    background-color: #16A085;
+    border-radius: 20px;
+}
+.Introbox{
+    margin-left: 2rem;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 4rem;
+text-align: center;
+}

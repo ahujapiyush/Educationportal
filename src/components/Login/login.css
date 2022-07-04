@@ -1,0 +1,54 @@
+.HomePage {
+    background-image: linear-gradient(to left, #4ec8fc, #904efc);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat-x;
+    display: flex;
+   
+  }
+
+  .WhiteBox {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: 16px 13px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 22px;
+    background-color: white;
+  }
+
+  /*Specifi for .img class of image*/
+img.img {
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    width: 90%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: 30px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    img.img {
+      display: block;
+      border-radius: 20px;
+      margin: auto;
+      width: 50%;
+      position: relative;
+      top: 15px;
+      left: 0px;
+    }
+    .WhiteBox {
+      position: relative;
+      margin: auto;
+      width: 95%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 16px 13px 10px rgb(0 0 0 / 0.2);
+      box-shadow: 22px;
+      background-color: white;
+      padding-bottom: 50px;
+    }
+  }

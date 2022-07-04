@@ -1,0 +1,10 @@
+.profileCard
+{
+    margin : 30% 5%;
+}
+
+@media screen and (min-width : 900px) {
+.profileCard{
+    margin : 10% 20%;
+}
+}

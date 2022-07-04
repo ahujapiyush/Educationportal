@@ -1,0 +1,10 @@
+@media screen and (min-width: 600px) {
+    .sidebar-width-browser {
+margin-left: 12%;
+    } 
+}
+
+.cutom-text-exam{
+    padding: 5px;
+   
+}
